@@ -16,6 +16,24 @@
   
 }
 
+@font-face {
+  font-family:SC;
+  src: url('../fnt/SocialicoPlus-Plus.eot');
+  src: url('../fnt/SocialicoPlus-Plus.eot?#iefix') format('embedded-opentype'),
+  url('../fnt/SocialicoPlus-Plus.woff2') format('woff2'),
+  url('../fnt/SocialicoPlus-Plus.woff') format('woff'),
+  url('../fnt/SocialicoPlus-Plus.ttf') format('truetype');
+}
+
+@font-face {
+  font-family:SC2;
+  src: url('../fnt/Socialico-Regular.eot');
+  src: url('../fnt/Socialico-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fnt/Socialico-Regular.woff2') format('woff2'),
+  url('../fnt/Socialico-Regular.woff') format('woff'),
+  url('../fnt/Socialico-Regular.ttf') format('truetype');
+}
+
 body {
   font-family:Prompt;
   background:#C879FF;
@@ -51,7 +69,7 @@ h1,h2,h3 {
 
 #foot {
   text-align:center;
-  font-size:10px;
+  font-size:12px;
 }
 
 .n {
@@ -71,9 +89,15 @@ h1,h2,h3 {
 }
 
 .fn {
+  font-family:"SC";
+  font-size:36px;
   border:2px solid black;
-  padding:5px;
+  border-top-left-radius:10px;
+  border-bottom-right-radius: 10px;
+  padding:10px;
   cursor:pointer;
   box-shadow: 0px 0px 10px black;
-  background:linear-gradient(lime,pink)
+  background:linear-gradient(#C879FF,#6D00A3);
+  color:white;
+  text-decoration:none;
 }
