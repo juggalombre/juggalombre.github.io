@@ -49,6 +49,11 @@ h1,h2,h3 {
   border:3px solid #FFB7FF;
 }
 
+#foot {
+  text-align:center;
+  font-size:10px;
+}
+
 .n {
   font-family:Prompt;
   border:2px solid black;
@@ -63,4 +68,12 @@ h1,h2,h3 {
 
 .n:hover {
   font-weight:bold;
+}
+
+.fn {
+  border:2px solid black;
+  padding:5px;
+  cursor:pointer;
+  box-shadow: 0px 0px 10px black;
+  background:linear-gradient(lime,pink)
 }
