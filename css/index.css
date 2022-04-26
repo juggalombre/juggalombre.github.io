@@ -36,7 +36,7 @@
 
 body {
   font-family:Prompt;
-  background:#2A606A;
+  background:#A72E37;
   color:#FAF8D4;
   padding-top:150px;
 }
@@ -57,7 +57,7 @@ a {
   width: 100%;
   left:0;
   top: 0;
-  background:#044B54;
+  background:#812329;
   border-bottom:3px solid black;
   color:#EBDCCB;
 }
@@ -67,8 +67,8 @@ a {
   width:80%;
   text-align:center;
   margin:auto;
-  background:#2A7E87;
-  border:3px solid #53D4C5;
+  background:#872a2a;
+  border:3px solid #DAA520;
 }
 
 #foot {
@@ -78,10 +78,10 @@ a {
 #oc {
   width:90%;
   margin:auto;
-  background:#044B54;
+  background:#A72E37;
 }
 #octd {
-  border:3px solid #53D4C5;
+  border:3px solid #DAA520;
   margin:auto;
 }
 .n {
@@ -93,7 +93,7 @@ a {
   padding-right:10px;
   cursor:pointer;
   box-shadow: 0px 0 8px black;
-  background: #53D4C5;
+  background: #DAA520;
   transition: .1s ease-in-out
 }
 
@@ -114,7 +114,7 @@ a {
   padding:10px;
   cursor:pointer;
   box-shadow: 0px 0px 10px black;
-  background:linear-gradient(#1c6f91,#044B54);
+  background:linear-gradient(#812329,#A72E37);
   color:white;
   text-decoration:none;
   transition: .1s ease-in-out;
@@ -125,7 +125,7 @@ a {
   border-bottom-right-radius: 0px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  background:linear-gradient(#044B54,#1c6f91)
+  background:linear-gradient(#A72E37,#812329)
 }
 
 .bimg {
