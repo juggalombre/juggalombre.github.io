@@ -36,7 +36,7 @@
 
 body {
   font-family:Prompt;
-  background:#A72E37;
+  background:rgb(199, 62, 103);
   color:#FAF8D4;
   padding-top:150px;
 }
@@ -60,7 +60,7 @@ hr {
   width: 100%;
   left:0;
   top: 0;
-  background:#812329;
+  background:rgb(181, 14, 64);
   border-bottom:3px solid black;
   color:#EBDCCB;
 }
@@ -70,43 +70,32 @@ hr {
   width:80%;
   text-align:center;
   margin:auto;
-  background:#872a2a;
-  border:3px solid #DAA520;
+  background:rgb(181, 14, 64);
+  border:3px solid rgb(129, 18, 46);
 }
 
 #foot {
   text-align:center;
   font-size:12px;
 }
-#oc {
-  width:90%;
-  margin:auto;
-  background:#A72E37;
-}
-#octd {
-  border:3px solid #DAA520;
-  margin:auto;
-  padding-top:5px;
-}
+
+
 .n {
   font-family:Prompt;
   border:2px solid black;
-  border-top-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-radius: 10px 0px;
   padding-left:10px;
   padding-right:10px;
   cursor:pointer;
   box-shadow: 0px 0 8px black;
-  background: #DAA520;
+  background: rgb(129, 18, 46);
   transition: .1s ease-in-out
 }
 
 .n:hover {
-  font-weight:bold;
-  border-top-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  background: rgb(196, 51, 95);
+  font-size:28px;
+  border-radius:0px 10px;
 }
 
 .fn {
@@ -118,7 +107,7 @@ hr {
   padding:10px;
   cursor:pointer;
   box-shadow: 0px 0px 10px black;
-  background:linear-gradient(#812329,#A72E37);
+  background:linear-gradient(rgb(199, 62, 103),rgb(181, 14, 64));
   color:white;
   text-decoration:none;
   transition: .1s ease-in-out;
@@ -129,16 +118,12 @@ hr {
   border-bottom-right-radius: 0px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  background:linear-gradient(#A72E37,#812329)
+  background:linear-gradient(rgb(199, 62, 103),rgb(181, 14, 64));
 }
 
 .bimg {
   border:2px solid black;
-  box-shadow:0px 0px 10px black;
-  border-radius:45%;
-  transition: .25s ease-in-out;
-}
-
-.bimg:hover {
-  border-radius:1%
+  background-color:black;
+  box-shadow:0px 2px 10px black;
+  border-radius:100%;
 }
