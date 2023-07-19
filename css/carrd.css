@@ -1,0 +1,95 @@
+@media screen and (max-width: 1000px) {
+    #mobile {
+        display: block;
+    }
+    #desktop {
+        display: none;
+    }
+    button {
+        width: 100% !important;
+        padding:20px !important;
+        font-size:20px !important;
+    }
+
+    }
+
+    @media screen and (min-width: 1000px) {
+    #desktop {
+        display:block;
+    }
+    #mobile {
+        display:none;
+    }
+
+}
+    
+    body {
+        background:url("../img/cardbg.png")
+    }
+    #body {
+        box-shadow: 10px 10px 10px rgb(0, 0, 0, .5);
+        border-radius: 25px;
+        width: 50%;
+        top: 0px;
+    }
+
+    button {
+        padding: 5px;
+        border-radius: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: Prompt;
+        width: 150px;
+        margin-bottom:10px;
+    }
+
+    button:hover {
+        text-decoration: underline;
+    }
+
+    .masto {
+        border: 2px solid cornflowerblue;
+        background: linear-gradient(cornflowerblue, skyblue);
+    }
+
+    .chost {
+        border: 2px solid #3B0920;
+        background: linear-gradient(#83254F, #3B0920);
+        color: white;
+    }
+
+    .tumblr {
+        border: 2px solid #1A2735;
+        background: linear-gradient(#36465D, #1A2735);
+        color: white;
+    }
+
+    .dA {
+        border: 2px solid #1A2735;
+        background: linear-gradient(#36523e, #57873d);
+        color: white;
+    }
+
+    .fA {
+        border: 2px solid #1A2735;
+        background: linear-gradient(#202225, #393d41);
+        color: white;
+    }
+
+    .me {
+        border: 2px solid #1A2735;
+        background: linear-gradient(#484848, #959494);
+    }
+
+    .ao3 {
+        border: 2px solid #1A2735;
+        background: linear-gradient(#850e06, #ab1207);
+        color:white;
+    }
+
+    .ffn {
+        border: 2px solid #1A2735;
+        background: linear-gradient(#17427e, #4c80b8);
+        color:white;
+    }
+    
