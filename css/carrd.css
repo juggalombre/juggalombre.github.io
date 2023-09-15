@@ -47,6 +47,12 @@
         text-decoration: underline;
     }
 
+    .tw {
+        border: 2px solid #517caa;
+        background: linear-gradient(#82abe4, #537ca8);
+        color: #f1f1f1;
+    }
+
     .masto {
         border: 2px solid cornflowerblue;
         background: linear-gradient(cornflowerblue, skyblue);
@@ -71,8 +77,8 @@
     }
 
     .fA {
-        border: 2px solid #1A2735;
-        background: linear-gradient(#202225, #393d41);
+        border: 2px solid #000000;
+        background: linear-gradient(#0c0c0c, #e26b09);
         color: white;
     }
 
